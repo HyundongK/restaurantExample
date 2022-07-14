@@ -17,7 +17,7 @@ public class NaverClientTest {
         var search=new SearchLocalReq();
         search.setQuery("갈비찜");
 
-        var result= naverClient.SearchLocal(search);
+        var result= naverClient.searchLocal(search);
         System.out.println(result);
     }
 
@@ -26,7 +26,7 @@ public class NaverClientTest {
         var search=new SearchImageReq();
         search.setQuery("갈비집");
 
-        var result=naverClient.SearchImage(search);
+        var result=naverClient.searchImage(search);
         System.out.println(result);
     }
 }

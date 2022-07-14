@@ -11,16 +11,16 @@ import java.util.List;
 @AllArgsConstructor
 public class SearchImageRes {
 
-    private String lastBuilDate;
+    private String lastBuildDate;
     private int total;
     private int start;
     private int display;
-    private List<SearchLocalItem> items;
+    private List<SearchImageItem> items;
 
     @Data
     @AllArgsConstructor
     @NoArgsConstructor
-    public static class SearchLocalItem{
+    public static class SearchImageItem{
         private String title;
         private String link;
         private String thumbnail;
